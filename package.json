@@ -8,7 +8,7 @@
   },
   "version": "0.0.0",
   "main": "./lib/server.js",
-  "browserify": {
+  "browser": {
     "main": "./lib/browser.js"
   },
   "dependencies": {
