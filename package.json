@@ -12,7 +12,7 @@
     "main": "./lib/browser.js"
   },
   "dependencies": {
-    "browserchannel": "^1.2",
+    "browserchannel": "^2.0",
     "through": "^2.3.4"
   },
   "devDependencies": {},
