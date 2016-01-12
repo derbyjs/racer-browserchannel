@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git://github.com/derbyjs/racer-browserchannel.git"
   },
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "./lib/server.js",
   "browser": {
     "main": "./lib/browser.js"
