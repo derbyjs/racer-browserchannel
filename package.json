@@ -16,6 +16,9 @@
   "peerDependencies": {
     "racer": "*"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "optionalDependencies": {},
   "bugs": {
     "url": "https://github.com/derbyjs/racer-browserchannel/issues"
