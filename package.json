@@ -1,5 +1,5 @@
 {
-  "name": "racer-browserchannel",
+  "name": "@derbyjs/racer-browserchannel",
   "description": "Browserchannel socket plugin for Racer",
   "homepage": "http://racerjs.com/",
   "repository": {
