@@ -12,7 +12,9 @@
   "dependencies": {
     "browserchannel": "^2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "np": "^7.6.3"
+  },
   "peerDependencies": {
     "racer": "*"
   },
