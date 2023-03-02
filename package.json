@@ -1,5 +1,5 @@
 {
-  "name": "racer-browserchannel",
+  "name": "@derbyjs/racer-browserchannel",
   "description": "Browserchannel socket plugin for Racer",
   "homepage": "http://racerjs.com/",
   "repository": {
@@ -8,14 +8,16 @@
   },
   "version": "0.5.0",
   "main": "./lib/server.js",
-  "browser": {
-    "main": "./lib/browser.js"
-  },
+  "browser": "./lib/browser.js",
   "dependencies": {
-    "browserchannel": "^2.0",
-    "through": "^2.3.4"
+    "browserchannel": "^2.0"
   },
-  "devDependencies": {},
+  "peerDependencies": {
+    "racer": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "optionalDependencies": {},
   "bugs": {
     "url": "https://github.com/derbyjs/racer-browserchannel/issues"
