@@ -8,7 +8,7 @@ In server code
 ```js
 const options = {};
 const racerBrowserChannel = require('@derbyjs/racer-browserchannel');
-const browserchannel = racerBrowserChannel(backend, options}
+const racerBrowserChannel = racerBrowserChannel(backend, options}
 express.use(browserchannel);
 ```
 
@@ -16,8 +16,8 @@ In client (browser) app
 
 ```js
 const options = {};
-const browserchannel = require('@derbyjs/racer-browserchannel/lib/browser');
-browserchannel(options);
+const racerBrowserChannel = require('@derbyjs/racer-browserchannel/lib/browser');
+racerBrowserChannel(options);
 ```
 
 For `options` see `[browserchannel API docs](https://github.com/josephg/node-browserchannel#api)
