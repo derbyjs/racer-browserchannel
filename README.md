@@ -7,7 +7,7 @@ Adds [browserchannel](https://github.com/josephg/node-browserchannel) socket sup
 In server code
 ```js
 const options = {};
-const browserchannel = require('@derbyjs/racer-browserchannel');
+const racerBrowserChannel = require('@derbyjs/racer-browserchannel');
 const browserchannel = racerBrowserChannel(backend, options}
 express.use(browserchannel);
 ```
